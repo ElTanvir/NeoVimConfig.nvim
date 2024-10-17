@@ -1,6 +1,6 @@
 return {
     "akinsho/flutter-tools.nvim",
-    branch = "fvm-on-windows",
+    -- branch = "fvm-on-windows",
     lazy = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
@@ -25,7 +25,7 @@ return {
           auto_open_browser = true, -- Automatically opens devtools in the browser
         },
         lsp = {
-          cmd = {"C:/Users/FATMAN/Documents/fvm/fvm.bat", "dart", "language-server", "--protocol=lsp"}, -- The command to run the dart lsp binary (e.g. { "/custom/dart/path", "language-server", "--protocol=lsp" })
+          -- cmd = {"C:/Users/FATMAN/Documents/fvm/fvm.bat", "dart", "language-server", "--protocol=lsp"}, -- The command to run the dart lsp binary (e.g. { "/custom/dart/path", "language-server", "--protocol=lsp" })
           color = { -- show the derived colours for dart variables
             enabled = true, -- whether or not to highlight color variables at all, only supported on flutter >= 2.10
           },
